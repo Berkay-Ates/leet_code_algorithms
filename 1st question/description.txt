@@ -1,0 +1,27 @@
+imagine there are a array and an target number. if the target number could be provided by summing any 2 elements of this 
+array we should return there is target, otherwise we should return there is any target number. Also it is presumed there 
+are only one solution for target number. 
+
+
+/**** question 
+
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+You can return the answer in any order.
+
+***example
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+
+***example
+Input: nums = [3,2,4], target = 6
+Output: [1,2]
+
+***example
+Input: nums = [3,3], target = 6
+Output: [0,1]
+
+question ****/
