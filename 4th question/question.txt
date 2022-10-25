@@ -1,0 +1,5 @@
+bir array icerisindeki toplamı sıfır olan 3'luleri bulununz 
+
+array icerisindeki her eleman sadece 1 defa kullanılabilir
+
+

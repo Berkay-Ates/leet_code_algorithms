@@ -5,7 +5,7 @@
 //  */
 
 const nums = [1, 5, 3, 4, 18, 33, 11, 12, 70];
-const target = 153;
+const target = 103;
 var twoSum = function (nums, target) {
     var i = 0;
     var j = 0;
@@ -18,7 +18,7 @@ var twoSum = function (nums, target) {
         j++;
     }
     if (nums[j - 1] + nums[i] === target) {
-        console.log('your target is included in the array');
+        console.log(`your target(${target}) is included in the array`);
         console.log(nums[j - 1]);
         console.log(nums[i]);
     } else {
